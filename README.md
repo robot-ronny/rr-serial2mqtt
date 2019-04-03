@@ -3,7 +3,7 @@ serial2mqtt is a python CLI tool, that takes serial data from connected BigClown
 
 ## Install
 ```
-git clone git@github.com:robot-ronny/rr-serial2mqtt.git
+git clone https://github.com/robot-ronny/rr-serial2mqtt.git
 ```
 
 ```
