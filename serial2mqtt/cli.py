@@ -20,5 +20,5 @@ def main(device, host, port):
         data = str(serialport.readline(), "utf-8").replace("\n", "").split()
         topic = data[0][2:-2]
         payload = data[1][:-1]
-        mqttc.publish("sensor/{0}".format(topic.split("/")[3]), payload)
+        mqttc.publish("sensor/ronny/{0}".format(topic.split("/")[3]), payload)
         print("topic: {0}, payload: {1}".format(topic, payload))
