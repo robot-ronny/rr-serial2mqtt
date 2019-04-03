@@ -22,3 +22,4 @@ def main(device, host, port):
         payload = data[1][:-1]
         mqttc.publish("sensor/ronny/{0}".format(topic.split("/")[3]), payload)
         print("topic: {0}, payload: {1}".format(topic, payload))
+        mqttc.loop()
